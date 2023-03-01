@@ -1,3 +1,3 @@
-# peek.me
+# peek.rip
 
-source code for the general purpose helper for those small annoying tasks
+an open-source website to make those annoying tasks less bothersome
