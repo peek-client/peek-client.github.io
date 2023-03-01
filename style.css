@@ -11,11 +11,36 @@ header>center>button {
 button {
     background-color: #c54ba700;
     border: 0px;
-    transition: 500ms;
+    padding: 0px;
+    transition: 500ms, text-shadow 0.2s ease-in-out;
 }
 
 button:hover {
+    margin: 5px;
     scale: 130%;
+    animation: shake 0.5s ease-in-out 5;
+    text-shadow: 0 0 5px #585858, 0 0 10px #585858, 0 0 15px #585858, 0 0 20px #ff99cc, 0 0 35px #ff99cc, 0 0 40px #ff99cc, 0 0 50px #ff99cc;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+    20% {
+        transform: translateX(-5px);
+    }
+    40% {
+        transform: translateX(5px);
+    }
+    60% {
+        transform: translateX(-3px);
+    }
+    80% {
+        transform: translateX(3px);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
 
 a {
@@ -23,10 +48,10 @@ a {
     text-decoration: none;
 }
 
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+.center-screen {
+    padding: 10px;
+    border-style: solid;
+    border-color: #c54ba6;
+    margin-top: 5%;
     text-align: center;
 }
