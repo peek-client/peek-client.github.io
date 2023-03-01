@@ -9,6 +9,7 @@ header>center>button {
 }
 
 button {
+    background-color: #c54ba700;
     border: 0px;
     transition: 500ms;
 }
