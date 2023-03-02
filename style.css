@@ -62,3 +62,7 @@ a {
     border-style: solid;
     border-color: #c54ba6;
 }
+
+.waifu > *:not(.waifu) {
+    filter: blur(5px);
+}
