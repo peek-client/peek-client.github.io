@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
 
 body {
-    font-family: 'Fira Mono', monospace;
-    color: #585858;
-    background-color: rgb(15, 15, 15);
+    background-image: url(https://i.pinimg.com/originals/a7/33/d1/a733d1bf859657bd2a260cd1ea5fc10a.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header>center>button {
@@ -56,6 +56,9 @@ a {
     border-color: #c54ba6;
     margin-top: 5%;
     text-align: center;
+    font-family: 'Fira Mono', monospace;
+    color: aliceblue;
+    background-color: rgba(15, 15, 15, 0.831);
 }
 
 .waifu {
